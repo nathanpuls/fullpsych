@@ -20,7 +20,7 @@ Visitor ──► Cloudflare Pages (static HTML/CSS/JS)
 ```
 
 - **Google Docs is the editor.** Six document tabs map to five public pages: Home, About, Approach, First Visit, and Resources (Medication Guide + FAQs).
-- **Cloudflare Pages serves the site.** There are no Pages Functions and no server-side request path. Layout assets are static and globally cached.
+- **Cloudflare's current Pages/Workers Static Assets platform serves the site.** There is no Worker script or server-side request path. Layout assets are static, globally cached, and Cloudflare documents static-asset requests as free and unlimited.
 - **R2 stores published content.** Each publish writes an immutable `content/versions/<id>.json` plus `content/current.json`.
 - **A Worker runs only when publishing.** It validates an HMAC signature, rejects oversized or malformed payloads, writes R2, and purges the single mutable URL. Visitors never invoke it.
 - **No D1.** The site has no database, accounts, forms, analytics, or patient-data collection.

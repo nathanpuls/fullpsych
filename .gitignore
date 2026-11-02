@@ -4,3 +4,8 @@ dist/
 .dev.vars
 .DS_Store
 coverage/
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

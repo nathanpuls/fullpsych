@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fullpsych",
+  "account_id": "ed3b0af15e1c2b8a6a351cc929b0a312",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "dist",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "fullpsych.com", "custom_domain": true },
+    { "pattern": "www.fullpsych.com", "custom_domain": true }
+  ]
+}

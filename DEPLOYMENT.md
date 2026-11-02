@@ -2,9 +2,16 @@
 
 The repository contains everything needed to operate FullPsych without AI. The Cloudflare resources are isolated to the `fullpsych.com` zone and the names below.
 
+## Current status
+
+- The static five-page site is deployed at `https://fullpsych.com` and both apex and `www` are attached to the isolated `fullpsych` Static Assets project.
+- The prior placeholder DNS records and obsolete `fullpsych.com/*` route to `simple-editor` were removed. FullPsych email-routing MX/TXT records were preserved.
+- R2 and the publish-only Worker are prepared in this repository but are not deployed yet because the currently connected Cloudflare token does not grant R2 write or zone cache-purge access.
+- Install the bound Apps Script only after the publisher Worker is deployed and a matching `PUBLISH_SECRET` exists.
+
 ## Cloudflare resources
 
-- Pages project: `fullpsych`
+- Static Assets project (Cloudflare's current Pages deployment path): `fullpsych`
 - R2 bucket: `fullpsych-content`
 - Worker: `fullpsych-publisher`
 - Public site: `https://fullpsych.com`
@@ -39,9 +46,10 @@ npm install
 npm test
 npx wrangler r2 bucket create fullpsych-content
 npx wrangler deploy --config publisher/wrangler.toml
-npx wrangler pages project create fullpsych --production-branch main
-npx wrangler pages deploy dist --project-name fullpsych --branch main
+npm run deploy
 ```
+
+Required token permissions are **Workers Scripts: Edit**, **Workers R2 Storage: Edit**, **Workers Routes: Edit**, **Zone: Read**, **DNS: Edit** (only for first-time domain attachment), and **Cache Purge: Purge** on the `fullpsych.com` zone. A narrower second token with only Cache Purge permission should be stored as the publisher Worker's `CF_API_TOKEN` secret.
 
 Add `content.fullpsych.com` as the custom domain for `fullpsych-content`. Add `fullpsych.com` and `www.fullpsych.com` to the Pages project. Keep the domain's MX and email-routing records unchanged.
 
