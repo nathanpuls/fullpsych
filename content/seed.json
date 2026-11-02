@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "sourceDocumentId": "1NA7cSprKUmmTDUERJcAbye3LJ5qal98SfzzZI8JEJM0",
+  "publishedAt": "2026-10-29T21:29:33.887Z",
+  "version": "seed-2026-10-29",
+  "pages": [
+    {
+      "sourceTab": "Home",
+      "slug": "home",
+      "title": "Nathan Puls, PMHNP-BC",
+      "eyebrow": "Psychiatric medication management",
+      "summary": "My goal is to help you understand your options and find a plan that fits your life.",
+      "blocks": [
+        {"type":"paragraph","spans":[{"text":"My goal is to help you understand your options and find a plan that fits your life."}]},
+        {"type":"link","spans":[{"text":"Schedule or learn more through my LifeStance Health profile","href":"https://lifestance.com/provider/nurse-practitioner/tx/kingwood/nathan-puls/"}]}
+      ]
+    },
+    {
+      "sourceTab": "About Me",
+      "slug": "about",
+      "title": "About Nathan",
+      "eyebrow": "Collaborative, evidence-based care",
+      "summary": "Adult psychiatric medication management in Texas, currently through LifeStance Health.",
+      "blocks": [
+        {"type":"paragraph","spans":[{"text":"Nathan Puls, PMHNP-BC, provides collaborative, evidence-based psychiatric care. He helps patients understand their symptoms and treatment options—not just leave with a prescription."}]},
+        {"type":"paragraph","spans":[{"text":"He provides adult medication management for anxiety, depression, ADHD, and related concerns. Nathan speaks English and Spanish and enjoys pickleball outside of work."}]},
+        {"type":"heading","level":2,"spans":[{"text":"Current care through LifeStance Health","bold":true}]},
+        {"type":"paragraph","spans":[{"text":"Appointment availability, insurance information, telehealth, office details, and patient resources are managed through LifeStance."}]},
+        {"type":"link","spans":[{"text":"View Nathan’s current professional profile","href":"https://lifestance.com/provider/nurse-practitioner/tx/kingwood/nathan-puls/"}]},
+        {"type":"heading","level":2,"spans":[{"text":"Education & experience","bold":true}]},
+        {"type":"timeline","year":"2010","title":"BA in Psychology","text":"Taylor University, cum laude."},
+        {"type":"timeline","year":"2020","title":"BS in Nursing","text":"Cizik School of Nursing at UTHealth Houston, following an Associate of Science from Lone Star College."},
+        {"type":"timeline","year":"2020–25","title":"Psychiatric nursing experience","text":"Psychiatric nurse roles at Nexus Children’s Hospital and The Menninger Clinic, building experience across child, adolescent, and adult psychiatric care."},
+        {"type":"timeline","year":"2025","title":"MSN — Psychiatric-Mental Health Nurse Practitioner","text":"The University of Texas at Tyler, completed with a 4.0 GPA, followed by national board certification as a PMHNP-BC."},
+        {"type":"timeline","year":"Today","title":"Adult psychiatric care in Texas","text":"Medication management and collaborative psychiatric care for adults, currently through LifeStance Health."}
+      ]
+    },
+    {
+      "sourceTab": "My Approach",
+      "slug": "approach",
+      "title": "My approach",
+      "eyebrow": "Care that starts with understanding",
+      "summary": "Good psychiatric care starts with understanding the whole person, not just a list of symptoms or a diagnosis.",
+      "blocks": [
+        {"type":"paragraph","spans":[{"text":"I believe good psychiatric care starts with understanding the whole person, not just a list of symptoms or a diagnosis."}]},
+        {"type":"principle","title":"Listen First","text":"Everyone has a unique story. I want to understand what you're experiencing, how it's affecting your life, and what matters most to you."},
+        {"type":"principle","title":"Keep It Simple","text":"Mental health care doesn't have to be complicated. I'll explain diagnoses, medications, and treatment options clearly so you can make informed decisions."},
+        {"type":"principle","title":"Work Together","text":"Treatment should be a conversation, not a set of instructions. We'll discuss your options and develop a plan that fits your needs and goals."},
+        {"type":"principle","title":"Look at the Full Picture","text":"Mental health is connected to physical health, sleep, relationships, lifestyle, and life experiences. Medication can be helpful, but it's only one piece of the puzzle."},
+        {"type":"principle","title":"Make Thoughtful Changes","text":"My goal isn't to prescribe more medication than necessary. It's to find the simplest effective treatment, make adjustments carefully, and regularly evaluate what's working."}
+      ]
+    },
+    {
+      "sourceTab": "Your First Visit",
+      "slug": "first-visit",
+      "title": "Your first visit",
+      "eyebrow": "Comfortable, straightforward, productive",
+      "summary": "What to expect and how to prepare before we meet.",
+      "blocks": [
+        {"type":"paragraph","spans":[{"text":"I want your appointment to feel comfortable, straightforward, and productive. Here's what you should know before we meet."}]},
+        {"type":"heading","level":2,"spans":[{"text":"What I Do"}]},
+        {"type":"paragraph","spans":[{"text":"I'm a psychiatric mental health nurse practitioner, which means I primarily focus on evaluating mental health concerns and managing medications. While our conversations may include supportive therapy, I don't provide traditional, ongoing talk therapy."}]},
+        {"type":"heading","level":2,"spans":[{"text":"Come Prepared"}]},
+        {"type":"paragraph","spans":[{"text":"Please have the following information available:"}]},
+        {"type":"listItem","spans":[{"text":"Your pharmacy: ","bold":true},{"text":"Name, street address, and ZIP code."}]},
+        {"type":"listItem","spans":[{"text":"Your medications: ","bold":true},{"text":"A list of current medications, including doses (if not already provided)."}]},
+        {"type":"listItem","spans":[{"text":"Your history: ","bold":true},{"text":"Any psychiatric medications you've tried before and whether they helped."}]},
+        {"type":"listItem","spans":[{"text":"Your goals: ","bold":true},{"text":"What you'd most like help with."}]},
+        {"type":"heading","level":2,"spans":[{"text":"During Your Appointment"}]},
+        {"type":"paragraph","spans":[{"text":"We'll talk about your symptoms, medical history, lifestyle, and what you're hoping to accomplish. I'll explain my recommendations clearly, and we'll decide on a treatment plan together."}]},
+        {"type":"heading","level":2,"spans":[{"text":"Recording & Note-Taking"}]},
+        {"type":"paragraph","spans":[{"text":"With your permission, I may use a secure recording or transcription tool to help document our conversation accurately. This allows me to focus more on listening and less on typing."}]},
+        {"type":"heading","level":2,"spans":[{"text":"After Your Visit"}]},
+        {"type":"paragraph","spans":[{"text":"If we decide medication is appropriate, I'll send your prescription to your preferred pharmacy. We'll also discuss when to follow up, what to monitor, and how to contact the office if questions arise."}]}
+      ]
+    },
+    {
+      "sourceTab": "Medication Guide",
+      "slug": "medication-guide",
+      "title": "Medication guide",
+      "eyebrow": "Topics we may discuss",
+      "summary": "Medication names referenced in the source document.",
+      "blocks": [
+        {"type":"heading","level":3,"spans":[{"text":"ADHD"}]},
+        {"type":"listItem","spans":[{"text":"Strattera"}]},
+        {"type":"listItem","spans":[{"text":"Vyvanse"}]},
+        {"type":"heading","level":3,"spans":[{"text":"Anxiety, Depression"}]},
+        {"type":"listItem","spans":[{"text":"Sertraline"}]},
+        {"type":"listItem","spans":[{"text":"Lexapro"}]}
+      ]
+    },
+    {
+      "sourceTab": "FAQs",
+      "slug": "faqs",
+      "title": "Questions & resources",
+      "eyebrow": "Practical information",
+      "summary": "Scheduling, medical messages, stimulant treatment requirements, and office hours.",
+      "blocks": [
+        {"type":"faq","question":"Scheduling and administrative questions?","spans":[{"text":"LifeStance office phone: "},{"text":"(281) 374-4500","href":"tel:+12813744500"}]},
+        {"type":"faq","question":"Medical questions?","spans":[{"text":"Send me a message via the "},{"text":"LifeStance Portal","href":"https://pp-wfe-100.advancedmd.com/136732/account/logon"}]},
+        {"type":"faq","question":"What's the process if I start a stimulant for ADHD?","spans":[{"text":"Depending on your circumstances and current practice policies, treatment may involve a urine drug screen, a telehealth visit with my supervising physician, and periodic in-person appointments. We will review the requirements that apply to your care."}]},
+        {"type":"faq","question":"What is your schedule like?","spans":[{"text":"Mornings from 9 am until noon are in-person or telehealth. Afternoons from 1 pm until 5 pm are telehealth."}]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+name = "fullpsych-publisher"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+account_id = "ed3b0af15e1c2b8a6a351cc929b0a312"
+
+[[r2_buckets]]
+binding = "CONTENT_BUCKET"
+bucket_name = "fullpsych-content"
+
+[vars]
+SOURCE_DOC_ID = "1NA7cSprKUmmTDUERJcAbye3LJ5qal98SfzzZI8JEJM0"
+CONTENT_BASE_URL = "https://content.fullpsych.com"
+ZONE_ID = "e44cdda43620a627b8d5c15b4766e299"
+
+[[routes]]
+pattern = "publish.fullpsych.com"
+custom_domain = true

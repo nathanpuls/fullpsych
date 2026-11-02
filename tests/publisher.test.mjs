@@ -1,0 +1,5 @@
+import test from "node:test"; import assert from "node:assert/strict"; import {readFile} from "node:fs/promises"; import {resolve} from "node:path"; import {signature,validate} from "../publisher/src/index.js";
+const root=resolve(import.meta.dirname,"..");
+test("HMAC signatures are deterministic",async()=>{assert.equal(await signature("secret","123.body"),await signature("secret","123.body"));assert.notEqual(await signature("secret","123.body"),await signature("secret","124.body"))});
+test("publisher accepts the canonical seed",async()=>{const data=JSON.parse(await readFile(resolve(root,"content/seed.json"),"utf8"));assert.doesNotThrow(()=>validate(data,data.sourceDocumentId))});
+test("publisher rejects unsafe links and wrong sources",async()=>{const data=JSON.parse(await readFile(resolve(root,"content/seed.json"),"utf8"));assert.throws(()=>validate(data,"wrong"));const copy=structuredClone(data);copy.pages[0].blocks[0].spans[0].href="javascript:alert(1)";assert.throws(()=>validate(copy,copy.sourceDocumentId),/Unsafe link/)});
